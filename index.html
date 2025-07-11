@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Parceria | Construindo Gigantes & Abimar Supermercado</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Applying the Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple animation for cards on hover */
+        .card-hover {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">Construindo Gigantes</a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#missao" class="text-slate-600 hover:text-blue-600 transition-colors">Nossa Missão</a>
+                <a href="#beneficios" class="text-slate-600 hover:text-blue-600 transition-colors">Benefícios</a>
+                <a href="#propostas" class="text-slate-600 hover:text-blue-600 transition-colors">Propostas</a>
+                <a href="#contato" class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition-transform hover:scale-105">Seja Parceiro</a>
+            </div>
+            <div class="md:hidden">
+                <!-- Mobile menu button can be added here -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Hero (Slide 1) -->
+        <section class="relative h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white bg-slate-700">
+            <img src="https://placehold.co/1920x1080/4A5568/E2E8F0?text=Comunidade+Unida" 
+                 alt="Imagem inspiradora da comunidade local" 
+                 class="absolute inset-0 w-full h-full object-cover opacity-40">
+            <div class="relative z-10 p-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Construindo Gigantes & Abimar Supermercado</h1>
+                <p class="text-xl md:text-2xl font-light">Uma parceria para nutrir o futuro da nossa comunidade.</p>
+            </div>
+        </section>
+
+        <!-- Section 2: Quem Somos (Slide 2) -->
+        <section id="quemsomos" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-blue-600 mb-6">Olá, Equipe Abimar!</h2>
+                <p class="text-lg md:text-xl leading-relaxed mb-4">
+                    Nós acreditamos que toda grande jornada começa com um passo de coragem e uma mão estendida. Sabemos que o Abimar é um pilar da nossa comunidade. Por isso, vemos em vocês o parceiro ideal para construir um futuro mais promissor para nossas crianças.
+                </p>
+                <p class="text-lg md:text-xl font-semibold text-slate-800">Este é um convite para unirmos forças.</p>
+            </div>
+        </section>
+
+        <!-- Section 3: Nossa Missão (Slide 3) -->
+        <section id="missao" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-600">Nossa Missão: Os Gigantes do Amanhã</h2>
+                    <p class="mt-4 text-lg max-w-3xl mx-auto">Atuamos no coração da cidade, oferecendo a crianças e adolescentes em vulnerabilidade as ferramentas para sonharem alto.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <!-- Card Educação -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-3">Educação</h3>
+                        <p>Reforço escolar e atividades pedagógicas para garantir uma base de conhecimento sólida e um futuro brilhante.</p>
+                    </div>
+                    <!-- Card Esporte e Cultura -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-3">Esporte e Cultura</h3>
+                        <p>O poder transformador da arte e do esporte para ensinar disciplina, trabalho em equipe e resiliência.</p>
+                    </div>
+                    <!-- Card Capacitação -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-3">Capacitação e Cidadania</h3>
+                        <p>Workshops e atividades que preparam nossos jovens para o mercado de trabalho e para a vida em sociedade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Benefícios (Slides 4-6) -->
+        <section id="beneficios" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-600">Por que ser nosso Parceiro?</h2>
+                    <p class="mt-4 text-lg max-w-3xl mx-auto">Aliar-se à Construindo Gigantes não é um custo, **é um investimento estratégico** que gera benefícios diretos para o seu negócio.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Benefício 1 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-blue-100 p-4 rounded-full mb-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 0112 20a8 8 0 01-5.657-2.343m11.314 0a3 3 0 00-4.243-4.243m-2.828 0a3 3 0 00-4.243 4.243m0 0l-1.414 1.414"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Marca Forte</h3>
+                        <p>Associe o nome Abimar a uma causa nobre, fortalecendo a imagem da empresa na comunidade.</p>
+                    </div>
+                    <!-- Benefício 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-blue-100 p-4 rounded-full mb-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Conexão Emocional</h3>
+                        <p>Crie um laço de lealdade com clientes que preferem marcas com propósito e responsabilidade social.</p>
+                    </div>
+                    <!-- Benefício 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-blue-100 p-4 rounded-full mb-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Orgulho Interno</h3>
+                        <p>Motive seus colaboradores, que sentirão orgulho de trabalhar em uma empresa que investe no social.</p>
+                    </div>
+                    <!-- Benefício 4 -->
+                    <div class="flex flex-col items-center text-center">
+                        <div class="bg-blue-100 p-4 rounded-full mb-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Marketing de Causa</h3>
+                        <p>Gere conteúdo positivo e espontâneo para suas redes sociais, destacando-se como "Supermercado Amigo da Comunidade".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Propostas (Slides 7-10) -->
+        <section id="propostas" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-600">Nossas Propostas de Parceria</h2>
+                    <p class="mt-4 text-lg max-w-3xl mx-auto">Modelos flexíveis para iniciarmos nossa jornada. Estamos abertos a construir o formato ideal junto com vocês.</p>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Proposta 1 -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-orange-500 card-hover">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">Opção 1: Parceiro Semente</h3>
+                        <p class="text-4xl font-extrabold text-orange-500 mb-6">Troco Solidário</p>
+                        <p class="font-semibold mb-2">Como funciona?</p>
+                        <p class="mb-4">Clientes são convidados no caixa a arredondar o valor da compra ou doar qualquer quantia para a ONG.</p>
+                        <p class="font-semibold mb-2">Benefícios:</p>
+                        <p>Baixo custo de implementação, alta visibilidade no ponto de venda e engajamento direto do cliente.</p>
+                    </div>
+                    <!-- Proposta 2 -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-blue-600 card-hover">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">Opção 2: Parceiro Protetor</h3>
+                        <p class="text-4xl font-extrabold text-blue-600 mb-6">Cesta do Futuro</p>
+                        <p class="font-semibold mb-2">Como funciona?</p>
+                        <p class="mb-4">O Abimar se torna nosso fornecedor oficial de alimentos, com doações mensais de produtos para lanches e oficinas.</p>
+                        <p class="font-semibold mb-2">Benefícios:</p>
+                        <p>Conexão lógica com o seu negócio, visibilidade contínua e ações de marketing conjuntas.</p>
+                    </div>
+                    <!-- Proposta 3 -->
+                    <div class="bg-white rounded-xl shadow-lg p-8 border-t-4 border-green-500 card-hover">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">Opção 3: Parceiro Gigante</h3>
+                        <p class="text-4xl font-extrabold text-green-500 mb-6">Produto Social</p>
+                        <p class="font-semibold mb-2">Como funciona?</p>
+                        <p class="mb-4">Um percentual (%) da venda de um produto de marca própria Abimar é revertido diretamente para a ONG.</p>
+                        <p class="font-semibold mb-2">Benefícios:</p>
+                        <p>Posiciona o Abimar como agente de transformação e usa a embalagem como um poderoso diferencial de compra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Call to Action (Slides 11-13) -->
+        <section id="contato" class="py-20 bg-blue-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Vamos Construir Juntos?</h2>
+                <p class="text-lg md:text-xl leading-relaxed mb-8 max-w-3xl mx-auto">
+                    Gostaríamos de agendar uma breve reunião para apresentar pessoalmente nosso trabalho e discutir o modelo de parceria ideal para o Abimar.
+                </p>
+                <a href="mailto:contato@construindogigantes.org" class="bg-white text-blue-600 font-bold px-8 py-4 rounded-full text-lg hover:bg-slate-100 transition-transform hover:scale-105 inline-block">
+                    Agendar uma Conversa
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-300 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-2xl font-bold text-white mb-2">ONG Construindo Gigantes</h3>
+            <p>Juntos, podemos nutrir a comunidade e construir gigantes.</p>
+            <div class="mt-4">
+                <p>contato@construindogigantes.org</p>
+                <p>(XX) XXXX-XXXX</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
